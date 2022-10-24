@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>primo progetto in Typescript</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>A che numero sto pensando?</h1>
+      <h3>
+        Scegli un numero da 1 a 100 e <br />
+        indovina il numero esatto
+      </h3>
+    </header>
+    <div class="container">
+      <div>
+        <h4>Giocatore A</h4>
+        <input type="text" placeholder="Scrivi qui il tuo numero" onkeypress="insertBtnA(event)" id="numberA" />
+        <div>Numero scelto dal giocatore A</div>
+        <div id="playerA"></div>
+      </div>
+      <div>
+        <h4>Giocatore B</h4>
+        <input type="text" placeholder="Scrivi qui il tuo numero" onkeypress="insertBtnB(event)" id="numberB" />
+        <div>Numero scelto dal giocatore B</div>
+        <div id="playerB"></div>
+      </div>
+    </div>
+    <section>
+      <button id="randomNr" onclick="giveMeResult()">Go!</button>
+      <div id="result"></div>
+      <div id="compareNr"></div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

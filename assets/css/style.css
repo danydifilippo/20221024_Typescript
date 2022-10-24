@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(../img/multicolored-background-of-numbers.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: pink;
+    font-size: 80px;
+    width: fit-content;
+    padding: 0.2em;
+    border-radius: 10cm;
+}
+
+h3 {
+    background-color: rgb(255, 250, 251);
+    font-size: 30px;
+    width: fit-content;
+    padding: 0.2em;
+    border-radius: 10cm;
+}
+
+
